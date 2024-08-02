@@ -1,0 +1,13 @@
+ print(f"Client ID: {app.client_id}")
+Client ID: cKNuvYcq6QDDEl6PzfsG8GOKrm1D50qPFI6dLKVz
+>>> print(f"Client Secret: {app.client_secret}")
+Client Secret: pbkdf2_sha256$720000$zQ10JZinQgmYjeuvxADT50$aYSXi5L6Rj/W4Fbn44bXslJN3br2g/msg14jSUUNWfU=
+
+
+http://localhost:8000/o/authorize/?response_type=code&client_id=<cKNuvYcq6QDDEl6PzfsG8GOKrm1D50qPFI6dLKVz>&redirect_uri=http://localhost:8000/callback/&scope=read write
+
+
+http://localhost:8000/o/authorize/?response_type=code&client_id=cKNuvYcq6QDDEl6PzfsG8GOKrm1D50qPFI6dLKVz&redirect_uri=http://localhost:8000/callback/&scope=read write
+
+
+http://localhost:8000/o/authorize/?response_type=code&client_id=<cKNuvYcq6QDDEl6PzfsG8GOKrm1D50qPFI6dLKVz>&redirect_uri=http://localhost:8000/callback/&scope=read write
